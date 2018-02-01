@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "npm": "5.5.1"
+  },
   "scripts": {
     "heroku-postbuild": "cd client && npm install --only=dev && npm install"
   },
