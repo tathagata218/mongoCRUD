@@ -14,6 +14,10 @@ app.use(express.static('client/build'));
 
 
 //-----------------------------------------Routes--------------------------------------------
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "client/build/index.html"));
+});
+
 app.post('/data',(req,res)=>{
 
 userInfoCol.create({name: req.body.name,
