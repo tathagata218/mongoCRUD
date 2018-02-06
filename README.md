@@ -5,7 +5,7 @@
 
 This is a simple project where users can express themselves by creating charecters. First, users can type in your name and next give a biref bio about your life, work, hobbies. Once the usere's finishes, they can save the entries, update, delete and create other entries. 
 
-##Technogies Used In the project
+## Technogies Used In the project
 1.	JSX
 2.	CSS3/Bootstrap
 3.	JavaScript
